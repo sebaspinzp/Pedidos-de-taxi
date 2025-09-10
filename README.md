@@ -35,27 +35,20 @@ En este proyecto se obtuvo un **RMSE mínimo de 25.56** utilizando **Regresión 
 ---
 
 ## ▶️ Cómo ejecutarlo  
-1. Clonar este repositorio:  
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
-Instalar las dependencias necesarias:
-
-bash
-Copy code
-pip install -r requirements.txt
-Abrir el proyecto en Jupyter Notebook o un IDE compatible.
+- Instalar las librerias necesarias pip install (Libreria)
+- Descargar los datasets para el desarrollo del proyecto.
+- Abrir el proyecto en Jupyter Notebook o un IDE compatible.
 
 Ejecutar los notebooks en este orden:
 
-01_preprocesamiento.ipynb → limpieza y preparación de datos.
+1, Preprocesamiento.ipynb → limpieza y preparación de datos.
 
-02_exploracion_datos.ipynb → análisis visual y estadístico.
+2. Exploracion_datos.ipynb → análisis visual y estadístico.
 
-03_modelos_prediccion.ipynb → entrenamiento y evaluación de modelos.
+3. Modelos_prediccion.ipynb → entrenamiento y evaluación de modelos.
 
 📚 Conclusiones generales
-La mayoría de los modelos entrenados alcanzaron valores de RMSE menores a 48, cumpliendo con los requisitos del proyecto.
 
-El modelo de Regresión Lineal obtuvo el mejor desempeño (RMSE = 25.56), destacando por su precisión y velocidad de ejecución.
-
-Este modelo constituye una solución óptima para predecir la demanda horaria de taxis, lo que permitirá a la compañía Sweet Lift Taxi optimizar su servicio en aeropuertos y mejorar la satisfacción de sus clientes.
+-La mayoría de los modelos entrenados alcanzaron valores de RMSE menores a 48, cumpliendo con los requisitos del proyecto.
+- El modelo de Regresión Lineal obtuvo el mejor desempeño (RMSE = 25.56), destacando por su precisión y velocidad de ejecución.
+- Este modelo constituye una solución óptima para predecir la demanda horaria de taxis, lo que permitirá a la compañía Sweet Lift Taxi optimizar su servicio en aeropuertos y mejorar la satisfacción de sus clientes.
